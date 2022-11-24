@@ -1,0 +1,97 @@
+.list_box{
+    overflow: auto;    
+    width: 280px;
+    height: 230px;
+    background-color: #f1f1f1;
+    border: 2px solid #d8d8d8;
+    border-radius: 12px;
+    margin-top: 5px;
+    padding: 5px;
+}
+input{
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.mini{
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    position:absolute;
+    top:50px;
+    border-radius: 12px 0 12px 0;
+    left: 10px;
+    background-color: #f1f1f1;
+}
+.mini:hover{
+    background-color: #a6b09f;
+    color: white;
+    border: 2px solid #d8d8d8;
+}
+.pick_color{
+    display: flex;
+    flex-direction: column;
+}
+.color_list{
+    padding: 5px;
+    display: flex;
+}
+.color{
+    margin-right: 8px;
+    opacity: 0.65;
+    background-color: #aa5858;
+    border-radius: 12px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+    width: auto;
+    padding: 0 10px 0 10px;
+}
+.color_text{
+    width: 100%;
+    font-family: TTcommons-demi;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.color:hover{
+    opacity: 1;
+}
+.text_check{
+    margin-bottom: 3px;
+}
+input:checked ~ .text_check {
+    text-decoration: line-through;
+  }
+label{
+    display: flex;
+}
+.li_stylle{
+    text-align: left;
+    width: 230px;
+}
+#list_ul{
+    display: flex;
+    flex-direction: column;
+}
+.bwpl{
+    background-color: #d8d8d8; border-radius: 5px; padding: 5px; margin-bottom: 5px; width: 200px; height: auto
+}
+[contenteditable=true]:empty:before {
+	content: attr(placeholder);
+	color: gray;
+}
+.remove{
+    margin-left: 5px;
+    color: #999999;
+    font-family: TTcommons-bold;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.remove:hover{
+    color:#707070
+}

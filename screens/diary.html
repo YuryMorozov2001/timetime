@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timetime</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/area.css">
+    <link rel="stylesheet" href="style/blocks.css">
+    <link rel="stylesheet" href="style/mood.css">
+
+    <link rel="stylesheet" href="style/tools.css">
+    <link rel="icon" type="image/ico" sizes="32x32" href="../image/favicon.ico">
+
+    <script type="text/javascript" src="script/createDiaryBlock.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <h2>timetime</h2>
+    </div>
+    <div class="border_content">
+        <div class="content">
+            <div class=" menu">
+                <img src="../image/menu.png" alt="menu" width="30" height="30">
+                <div class="menu_link">
+                    <a href="../index.html" class="style_link">главная</a>
+                    <a href="#" class="style_link">дневник</a>
+                    <a href="list.html" class="style_link">списки задач</a>
+                    <a href="info.html" class="style_link">о проекте</a>
+                </div>
+            </div>
+
+            <div id="warp"></div>
+            <div class="content_box" id="content">
+                <div class="title">
+                    Дневник
+                </div>
+                <div class="box_content">
+                    <div class="content_area">
+                        <div class="area_grid">
+                        </div>
+                    </div>
+                    <div class="box_tools">
+                        <div class="tools" style="margin: 10px;">
+                            <div class="title_tools">Создание записи</div>
+                            <div class="title_tools_line"></div>
+                            <div class="text_tools">Поделись тем, что произошло <br /> с тобой сегодня:</div>
+                            <textarea name="" id="inputBox"
+                                style="font-family: Arial, Helvetica, sans-serif;"></textarea>
+                            <div class="mood">
+                                <div class="text_tools">Выбери свое настроение:</div>
+                                <div class="mood_box">
+                                    <!--С js атрибут a поменяется в другой-->
+                                    <a class="mood_box_image active" style="background-color: rgb(130, 163, 125);"><img
+                                            src="image/smiling-face.png" alt=""></a>
+                                    <a class="mood_box_image" style="background-color: rgb(226, 156, 76)"><img
+                                            src="image/neutral-face.png" alt=""></a>
+                                    <a class="mood_box_image" style="background-color: rgb(158, 122, 134);"><img
+                                            src="image/face-hearts.png" alt=""></a>
+                                    <a class="mood_box_image" style="background-color: rgb(121, 162, 163);"><img
+                                            src="image/crying-face.png" alt=""></a>
+                                    <a class="mood_box_image" style="background-color: rgb(156, 71, 71);"><img
+                                            src="image/pouting-face.png" alt=""></a>
+                                </div>
+                            </div>
+                            <button id="createDiary">создать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+                <div class="link">
+                    <a href="https://vk.com/id438796333" target="_blank"><img src="../image/vk_logo.png" alt="vk"
+                            width="25"></a>
+                    <a href="https://www.instagram.com/yury.morooozov/" target="_blank"><img
+                            src="../image/inst_logo.png" alt="inst" width="25"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

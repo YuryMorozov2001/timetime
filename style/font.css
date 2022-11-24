@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'TTCommons-bold'; 
+	src: url(../font/TTCommons-Bold.ttf); 
+	
+}
+@font-face{
+	font-family: 'TTCommons-demi'; 
+	src: url(../font/TTCommons-DemiBold.ttf); 
+}

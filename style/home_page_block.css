@@ -1,0 +1,59 @@
+.section{
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+}
+.present{
+    display: flex;
+    height: 100%;
+    width: 49%;
+    border-radius: 12px;
+    background-color: #806b58;
+    background-image: url(../image/www.png);
+}
+.question{
+    height: 100%;
+    width: 49%;
+    margin-left: 2%;
+}
+.quest{
+    opacity: 0.8;
+    background-color: #bfbfbf;
+    display: flex;
+    border-radius: 12px;
+    height: 30%;
+    display: flex;
+    transition: 0.25s;
+	cursor: pointer;
+}
+.quest:hover{
+    opacity: 1;
+    transition: 0.25s;
+}
+.quest:nth-child(-n+2){
+    margin-bottom: 2.45%;
+}
+.text_quest{
+    width: 77%;
+    margin: auto 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.img_quest{
+    margin: auto;
+}
+.leaf{
+    background-color: rgb(226, 156, 76);
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    border-radius: 12px;
+}
+.leaf_title{
+    padding: 15px 0 0 8px;
+    font-family: TTCommons-demi;
+}
+.leaf_text{
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+}
